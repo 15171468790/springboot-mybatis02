@@ -1,0 +1,11 @@
+#配置datasource数据源
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.43.221:3306/test?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&useSSL=true
+    password: www.mysql.com
+    username: root
+
+#配置mybatis
+mybatis:
+  type-aliases-package: com.wang.springbootmybatis02.resposity
